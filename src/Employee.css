@@ -1,0 +1,42 @@
+
+.employee-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%; 
+    margin: 0 auto;
+    position: relative; 
+    text-align: center;
+}
+  
+  .name {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+  .employee-image {
+    border-radius: 50%;
+    border: 0.5px dotted #fff; 
+    box-shadow: 0 0 10px black 
+  }
+  
+  .toggle-icon {
+    transition: transform 0.3s ease-in-out;
+}
+  
+  .rotate {
+    transform: rotate(45deg);
+  }
+  
+  .details {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .show {
+    max-height: 1000px; 
+  }

@@ -1,0 +1,51 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto; 
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input.update,
+  input.upload-image {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input[type="file"] {
+    margin-bottom: 15px;
+  }
+
+  button.upload-btn,
+  button.save-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; 
+  }
+
+  button.upload-btn:hover,
+  button.save-btn:hover {
+    background-color: #A5DD9B;
+    color: white;
+  }
+
+  .upload-btn {
+    width: 110px;
+  }
+
+  .save-btn {
+    width: 110px;
+  }
+

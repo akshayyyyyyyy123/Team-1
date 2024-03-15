@@ -1,0 +1,27 @@
+.employee-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.name {
+  cursor: pointer;
+}
+.toggle-icon {
+  font-size: 20px;
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.rotate {
+  transform: rotate(45deg);
+}
+.details {
+  display: none;
+  margin-top: 20px;
+}
+.show {
+  display: block;
+}

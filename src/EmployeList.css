@@ -1,0 +1,64 @@
+/* .employee-list-container {
+    padding: 20px;
+}
+  
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+  
+  .employee-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px; 
+    box-sizing: border-box;
+}
+   */
+
+   .employee-list-container {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    
+  }
+  
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .employee-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 320px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    background-color: #f8f8f8; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  
+    p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+  
+    img {
+      border-radius: 50%;
+      margin-left: 68px;
+      margin-top: 10px;
+      padding: 4px;
+      box-shadow: 0 0 0 2px #B7E5B4, 0 0 0 4px #B7E5B4;
+    }
+  }
+  
+  
